@@ -17,6 +17,30 @@
   }
 }
 
+#side-bar {
+  position: fixed;
+  width: 120px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(80, 80, 80);
+}
+
+#side-bar li > a {
+  list-style: none;
+  font-size: 2em;
+  display: block;
+  margin-top: 50px;
+  color: rgb(200, 200, 200);
+}
+
+/*
+#page-content {
+  margin-left: 300px;
+}*/
+
+
 #photo_profile {
   border: 1px solid grey;
   border-radius: 50%;
@@ -53,7 +77,7 @@ h1, h2 {
 a {
   color: #512DA8;
   text-decoration: none;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 a:hover {
