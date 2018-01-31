@@ -1,0 +1,97 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
+
+#photo_profile {
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+img {
+  width: 150px;
+}
+
+body {
+  background-color: #EDE7F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.1em;
+  color: rgb(80, 80, 80);
+}
+
+h1 {
+  font-size: 1.9em;
+  line-height: 1.4em;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #512DA8;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+a:hover {
+  color: #311B92;
+  opacity: 1;
+}
+
+.container {
+  width: 900px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.list_inline {
+  padding-left: 0;
+}
+
+.list_inline > li {
+  list-style: none;
+  display: inline-block;
+  width: 20%;
+  font-size: 2em;
+}
+
+p {
+  color: rgb(150, 150, 150);
+}
+
